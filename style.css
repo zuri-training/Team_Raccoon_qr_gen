@@ -30,6 +30,7 @@
 .cta-sec{
     background: #F5EDFF;
     border: 1px solid #8758C7;
+    color: #8758C7;
     border-radius: 24px;
 
 }
@@ -93,6 +94,8 @@ header nav{
     text-decoration: none;
     padding: 10px;
     font-weight: 400;
+    color: #444546;
+
 }
 .nav-active{
     font-weight: 700;
