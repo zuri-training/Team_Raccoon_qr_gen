@@ -1,4 +1,4 @@
-Contributing to the project
+# Contributing to the project
 Please make sure to read the relevant section before making your contributions, it will make it a lot easier for maintainers to make the most of it and smooth out the experience for everyone involved. 🚀
 
 The structure below explains the atomic design principle. NOTE: before creating any new compnent, please check if it exists already to avoid duplicate components.
@@ -7,37 +7,42 @@ assets:contains CSS, Javascript, Images and Icons
 
 src: contains all html pages
 
-##Submit Changes
+## Submit Changes
 
-###fork the repo
+### fork the repo
 
-###Clone the forked repo 
+### Clone the forked repo 
 You can do that on your github account
 or in your terminal using git clone https://github.com/your_username/Team_Raccoon_qr_gen.git
 
-###Create a new branch
+### Create a new branch
 You can do that on your github account
 or git checkout -b <new-branch-you-created>
-ensure you are in your new branch, you can type git branch in your terminal to confirm
+ensure you are in your new branch, you can type <git branch> in your terminal to confirm
 
-###Make your changes, 
-pull changes from the repo to avoid conlicts
-git pull set ups 
-Make your changes then run the follow
+### Make your changes, 
+git remote add origin <https://github.com/your_github_username/Team_Raccoon_qr_gen.git>
+
+When you are done making changes, run the following
+Pull chages from the repo to avoid conlicts
+git pull
+
+You may need to accept incoming or both changes before going to the next step
+
+Then add your changes
 git add . 
 git commit (Use a descriptive commit message)
 
-###Push changes
+### Push changes
 git push origin -u <your_new_branch> 
 
-###Pull request
-Head over to your forked repo on github click "Compare and pull request"
+### Pull request
+Head over to the main repo (https://github.com/zuri-training/Team_Raccoon_qr_gen) on github click "Compare and pull request"
 In your description part, add this closes #Your_Issue_Number e.g this closes issue #45
 Then wait till your PR is merged
-When your PR is merged, always make sure your forked repository is in sync with the Zuri-training main branch by clicking Sync fork and updating branch.
+When your PR is merged, always make sure your forked repository is in sync with the Zuri-training main branch by clicking Sync fork and updating your branch.
 
-###More notes
-
+### More notes
 Please avoid working directly on the exisiting branches.
 In your forked repository, create a branch for your upcoming patch.
 Assure nothing is broken by running all the tests.
