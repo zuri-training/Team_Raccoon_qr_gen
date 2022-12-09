@@ -66,7 +66,7 @@ Even if you have write access to the repository, do not directly push or merge
 pull-requests. Let another team member review your pull request and approve.
 
 Important notes before pushing codes:
-Always make sure your forked repository is in sync with the Zuri-trainingbranch by clicking Sync fork and updating branch.
+Always make sure your forked repository is in sync with the Zuri-training branch by clicking Sync fork and updating branch.
 
 On your local machine do a git pull to your feature branch for a local update.
 
