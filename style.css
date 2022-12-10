@@ -119,10 +119,12 @@ header nav{
     display: flex;
     flex-flow: column;
     gap: 32px;
+    
 }
 .hero-text h1{
-    line-height: 72px;
+    line-height: auto;
     color: #6F36BC; 
+    font-size: 52px;
 }
 .hero-text .btn{
     width: fit-content;
@@ -151,7 +153,7 @@ header nav{
 
 /* New to QR code? */
 .new-to-qr{
-    padding: 120px 0 120px 120px;
+    padding: 120px 0 120px 0;
 }
 .new-to-qr h2,.new-to-qr p{
     text-align: center;
@@ -162,11 +164,11 @@ header nav{
     flex-flow: row;
     gap: 60px;
     overflow-x: scroll;
-    padding: 24px 120px 24px 0;
-    /* scrollbar-width: none; */
-}
-.steps::-webkit-scrollbar-button{
+    padding: 24px 120px 24px 120px;
     scrollbar-width: none;
+}
+.steps::-webkit-scrollbar{
+    display: none;
 }
 .step{
     width: max-content;
@@ -227,6 +229,7 @@ header nav{
     display: flex;
     flex-flow: column ;
     gap: 44px;
+    overflow: hidden;
 }
 .what-we-do h2, .what-we-do p{
     text-align: center;
@@ -254,13 +257,52 @@ header nav{
     color: #565656;
 
 }
+.what-we-do .circle-1{
+    position: absolute;
+    width: 342px;
+    height: 344px;
+    border-radius: 100%;
+    left: 90%;
+    top: 1850px;
+    background: #6F36BC;
+    opacity: 0.1;
+    z-index: 0;
+    overflow: hidden;
 
+}
+
+.what-we-do .circle-2{
+    position: absolute;
+    width: 342px;
+    height: 344px;
+    border-radius: 100%;
+    left: -20%;
+    top: 1850px;
+    background: #6F36BC;
+    opacity: 0.1;
+    z-index: 0;
+
+}
+
+.what-we-do .circle-3{
+    position: absolute;
+    height: 538px;
+    width: 537px;   
+    border-radius: 100%;
+    left: -30%;
+    top: 2170px;
+    background: #6F36BC;
+    opacity: 0.1;
+    z-index: 0;
+
+}
 /* What we do ends here */
 
 
 /* Review */
 .review-section{
     padding: 60px;
+    background: #F5EDFF;
 }
 .review-section h2{
     text-align: center;
@@ -291,6 +333,7 @@ header nav{
     text-align: center;
     font-size: 20px;
     font-weight: bold;
+    color: #6F36BC;
 }
 
 /* Get started */
@@ -300,7 +343,7 @@ header nav{
 .img-get-started{
     width: 576px;
     position: relative;
-    top: 50px;
+    top: 100px;
     left: 200px
 }
 .get-started .signup{
