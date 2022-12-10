@@ -1,0 +1,98 @@
+
+.signin{
+    display: flex;
+    justify-content: space-between;
+    padding: 108px 120px;
+    align-items: center;
+    
+}
+.signin-img{
+    width: 454px;
+}
+
+.signin-form{
+    padding: 80px 20px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 60px rgba(114, 94, 152, 0.2);
+    border-radius: 24px;
+    display: flex;
+    flex-flow: column;
+    gap: 32px;
+}
+.signin-form form{
+    display: flex;
+    flex-flow: column;
+    gap: 32px;
+}
+.signin-form h4{
+    text-align: center;
+}
+.signin-form form .inputs{
+    display: flex;
+    flex-flow: column;
+    gap: 40px;
+}
+.signin-form form .inputs label{
+    font-size: 22px;
+}
+.signin-form input{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 11px 18px;
+    gap: 10px;
+    width: 463px;
+    height: 54px;
+    background: #FFFFFF;
+    border: 1px solid #4A247D;
+    border-radius: 24px;
+    font-size: 22px;
+}
+.signin-form input::placeholder{
+    color: #B5BBC7;
+
+}
+.signin-form .btns{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    text-decoration: none;
+}
+.signin-form .btns input{
+    color: #FFFFFF;
+    background-color: #4A247D;
+    width: 163px;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+.emailOrPhone-div,.password-div{
+    display: flex;
+    flex-flow: column;
+    gap: 8px;
+}
+.signin-form .btns a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 11px 18px;
+    gap: 10px;
+    width: 245px;
+    height: 48px;
+    border-radius: 24px;
+    background: #F5EDFF;
+    text-decoration: none;
+    color: #4A247D;
+    font-size: 16px;
+    font-weight: 600;
+}
+.signin-form p{
+    text-align: center;
+}
+.signin p a{
+    font-weight: 600;
+    text-decoration: none;
+    color: #4A247D;
+}
