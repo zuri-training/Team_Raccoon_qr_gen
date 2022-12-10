@@ -46,13 +46,13 @@ h2{
     font-size: 48px;
 }
 h3{
-    font-size: 48px;
-}
-h4{
     font-size: 40px;
 }
-h5{
+h4{
     font-size: 32px;
+}
+h5{
+    font-size: 28px;
 }
 h6{
     font-size: 24px;
@@ -149,8 +149,56 @@ header nav{
 }
 /**********Hero section ends *********/
 
+/* New to QR code? */
+.new-to-qr{
+    padding: 120px 0 120px 120px;
+}
+.new-to-qr h2,p{
+    text-align: center;
+}
 
+/* .steps{
+    display: contents;
+} */
+.step{
+    width: 1055px;
+    display: flex;
+    flex-flow: row;
+    gap: 40px;
+    align-items: center;
+    padding: 40px;
+    background: #FDFDFD;
+    box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 24px;
+    margin-top: 52px;
+}
+.step .step-img{
+    width: 400px;
+}
+.step-texts{
+    display: flex;
+    flex-flow: column;
+    gap: 16px;
+}
+.step-texts .heading{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    gap: 26px;
+}
+.step-texts .heading .text-circle{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    width: 66px;
+    height: 66px;
+    border-radius: 100px;
+    background: #6F36BC;
 
+}
+/* New to QR codes ends here */
 /* Footer */
 footer{
     background: #160B26;
@@ -184,6 +232,7 @@ footer{
 .content form input{
     width: 292px;
     height: 42px;
+    padding: 0 18px;
     /* background: #FFFFFF; */
 }
 .content form input.subscribe-btn{
