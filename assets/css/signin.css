@@ -72,6 +72,14 @@
     flex-flow: column;
     gap: 8px;
 }
+.password-div a{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: underline;
+    text-align: right;
+    justify-self: right;
+}
 .signin-form .btns a{
     display: flex;
     flex-direction: row;
