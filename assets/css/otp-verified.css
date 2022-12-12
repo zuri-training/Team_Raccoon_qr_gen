@@ -1,0 +1,48 @@
+.otp-verified{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.verified{
+    width: 884px;
+    height: 512px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(159, 121, 210, 0.4);
+    border-radius: 32px;
+    margin: 150px 278px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.verified img{
+    margin-top: 101px auto 0;
+    width: 118px;
+}
+.verified h4{
+    margin-bottom: 16px;
+    text-align: center;
+}
+.verified p{
+    margin-bottom: 72px;
+    text-align: center;
+    width: 460px;
+}
+.verified .btns{
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    padding: 32px;
+}
+.btns .back-btn{
+    text-decoration: none;
+    color: #E85151;
+
+}
+.btns .dashboard-btn{
+    text-decoration: none;
+    color: #11A589;
+
+}
