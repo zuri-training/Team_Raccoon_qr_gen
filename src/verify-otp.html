@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>QR_gen</title>
     <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="../assets/css/signin.css">
+    <link rel="stylesheet" href="../assets/css/verify-otp.css">
   </head>
   <body>
     <header>
@@ -26,31 +26,26 @@
             </div>
       </nav>
     </header>
-    <main class="signin">
-      <div class="signin-image">
+    <main class="otp">
+      <div class="otp-image">
         <img src="../assets/images/otp-img.png" class="otp-img" alt="otp-img">
       </div>
-      <div class="signin-form">
-        <h4>Login</h4>
-        <form action="#" method="post">
+      <div class="otp-form">
+        <h4>OTP Verification</h4>
+        <p class="p-d">Enter 6 didgit OTP sent to +234819****756</p>
+        <form action="../src/otp-verified.html" method="post">
           <div class="inputs">
-            <div class="emailOrPhone-div">
-              <label for="email">Email or Phone number</label>
-              <input type="text" name="EmailOrPhone" id="emailOrPhone" placeholder="yinkadavies@example.com">
-            </div>
-            <div class="password-div">
-              <label for="password">Password</label>
-              <input type="password" name="password" id="password" placeholder="Enter six-digit password" >
-              <a href="../src/forget-password.html">Forgot password</a>
+            <div class="otp-code">
+              <input type="text" name="code-1" id="code-1" placeholder="X">
+              <input type="text" name="code-2" id="code-2" placeholder="X">
+              <input type="text" name="code-3" id="code-3" placeholder="X">
+              <input type="text" name="code-4" id="code-4" placeholder="X">
+              <input type="text" name="code-5" id="code-5" placeholder="X">
             </div>
           </div>
-          <div class="btns">
-            <input type="submit" value="Login" class="p-sm">
-            <p>Or</p>
-            <a href="../src/signup.html" class="p-sm"><img src="../assets/icons/google.svg" width="24" alt=""> Signin with Google</a>
-          </div>
+          <input type="submit" value="Verify OTP" class="p-sm verify-otp-btn">
         </form>
-        <p>Don't have an account? <span><a href="../src/signup.html">Signup</a></span></p>
+        <p class="didnt-recieve">Didn't recieve OTP? <span><a href="#">Resend</a></span></p>
       </div>
       
     </main>

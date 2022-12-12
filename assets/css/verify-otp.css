@@ -1,0 +1,81 @@
+
+
+.otp{
+    display: flex;
+    justify-content: space-between;
+    padding: 108px 120px;
+    align-items: center;
+    
+}
+.otp-img{
+    width: 531px;
+}
+
+.otp-form{
+    padding: 80px 20px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 60px rgba(114, 94, 152, 0.2);
+    border-radius: 24px;
+    display: flex;
+    flex-flow: column;
+    gap: 32px;
+}
+.otp-form h4{
+    text-align: center;
+}
+.otp-form form .inputs{
+    display: flex;
+    flex-flow: column;
+    gap: 40px;
+    margin-bottom: 32px;
+}
+.otp-form input{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 11px 18px;
+    gap: 10px;
+    width: 60px;
+    height: 55px;
+    background: #FFFFFF;
+    border: 1px solid #BABABA;
+    border-radius: 8px;
+    font-size: 22px;
+    text-align: center;
+}
+.otp-form input:focus{
+    outline: 1px solid #6F36BC;
+}
+.otp-form input::placeholder{
+    color: #B5BBC7;
+    text-align: center;
+
+}
+.otp-form .otp-code{
+    display: flex;
+    flex-flow: row;
+    gap: 32px;
+}
+.otp-form .verify-otp-btn{
+    width: 348px;
+    height: 54px;
+    background: #6F36BC;
+    color: #FFFFFF;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    text-decoration: none;
+    margin: auto;
+   
+    
+}
+.didnt-recieve{
+    text-align: center;
+}
+.didnt-recieve span a{ 
+    color: #6F36BC;
+    font-weight: 400;
+    text-decoration: none;
+}

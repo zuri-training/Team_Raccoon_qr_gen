@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>QR_gen</title>
+    <title>OTP Verified</title>
     <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="../assets/css/signin.css">
+    <link rel="stylesheet" href="../assets/css/otp-verified.css">
   </head>
   <body>
     <header>
@@ -26,31 +26,15 @@
             </div>
       </nav>
     </header>
-    <main class="signin">
-      <div class="signin-image">
-        <img src="../assets/images/login-img.svg" class="signin-img" alt="QR-code">
-      </div>
-      <div class="signin-form">
-        <h4>Login</h4>
-        <form action="#" method="post">
-          <div class="inputs">
-            <div class="emailOrPhone-div">
-              <label for="email">Email or Phone number</label>
-              <input type="text" name="EmailOrPhone" id="emailOrPhone" placeholder="yinkadavies@example.com">
-            </div>
-            <div class="password-div">
-              <label for="password">Password</label>
-              <input type="password" name="password" id="password" placeholder="Enter six-digit password" >
-              <a href="../src/forget-password.html">orgot password</a>
-            </div>
-          </div>
-          <div class="btns">
-            <input type="submit" value="Login" class="p-sm">
-            <p>Or</p>
-            <a href="../src/signup.html" class="p-sm"><img src="../assets/icons/google.svg" width="24" alt=""> Signin with Google</a>
-          </div>
-        </form>
-        <p>Don't have an account? <span><a href="../src/signup.html">Signup</a></span></p>
+    <main class="otp-verified">
+      <div class="verified">
+        <img src="../assets/images/check.png" alt="">
+        <h4>Verification Successful</h4>
+        <p class="p-lg">Your account has been verified successfully!</p>
+        <div class="btns">
+            <a href="../src/signup.html" class="back-btn">Go back</a>
+            <a href="../src/dashboard.html" class="dashboard-btn">Go back</a>
+        </div>
       </div>
       
     </main>
