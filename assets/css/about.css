@@ -1,0 +1,21 @@
+.about-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 826px;
+}
+.about{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 46px;
+}
+
+.about-img{
+    width: 500px;
+}
+.about p{
+    /* width: 1200px; */
+    margin: 0 120px;
+}
