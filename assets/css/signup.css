@@ -59,7 +59,8 @@
     text-decoration: none;
     
 }
-.signup-form .btns input{
+.signup-form .btns input,
+.signup-form .btns a.create-btn{
     color: #FFFFFF;
     background-color: #4A247D;
     width: 163px;

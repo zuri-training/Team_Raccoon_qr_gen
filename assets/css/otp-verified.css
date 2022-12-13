@@ -46,3 +46,16 @@
     color: #11A589;
 
 }
+
+/* Mobile responsiveness */
+@media screen and (max-width: 540px) {
+    .verified{
+        width: auto;
+        box-shadow: 0 0 0;
+        height: auto;
+    }
+    .btns{
+        width: auto;
+        padding: 24px 44px;
+    }
+}

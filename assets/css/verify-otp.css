@@ -79,3 +79,10 @@
     font-weight: 400;
     text-decoration: none;
 }
+
+/* Mobile responsiveness */
+@media screen and (max-width: 540px) {
+    .otp-img{
+        display: none;
+    }
+}
