@@ -7,6 +7,7 @@
     <title>QR_gen</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./assets/css/signup.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
   <body>
     <header>
@@ -24,14 +25,14 @@
               <a href="./src/signin.html" class="btn cta-pri">Sign in</a>
             </div>
           </div>
-          <img src="/assets/icons/hambergermenu.svg" onclick="showMenu()" alt="" class="menu" id="menu">
+          <img src="/assets/icons/hambergermenu.svg" alt="" class="menu" id="menu">
       </nav>
     </header>
     <main class="hero">
       <div class="hero-text">
         <h1>Generate, Customise and Track QR Codes</h1>
         <p class="p-lg">qr_gen is a dynamic QR Code generator. It allows users to easily create customized  QR codes for sharing or embedding in their website.</p>
-        <a href="#" class="btn cta-pri">Get started</a>
+        <a href="./src/signup.html" class="btn cta-pri">Get started</a>
         <div class="stats">
           <div class="users">60+ <span>Users</span></div>
           <div class="clients">32+ <span>Clients</span></div>
@@ -196,7 +197,7 @@
       
         <div class="signup-form">
           <h4>Create account</h4>
-          <form action="#" method="post">
+          <form action="./src/verify-otp.html" method="post">
             <div class="inputs">
               <div class="name-div">
                 <label for="name">Name (Business or Personal</label>
@@ -225,15 +226,7 @@
         </div>
       <div>
     </section>
-    <script>
-        // var nav = document.getElementsByClassName("navs");
-        // menu = document.getElementById("menu");
-
-        // function showMenu(){
-        //     alert("Hello");
-        //     nav.style.display = "block" ;
-        // }
-    </script>
+    <script src="./script.js"></script>
     <footer>
       <div class="top">
         <div class="col col-1">

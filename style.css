@@ -244,6 +244,7 @@ header nav{
 .what-we-do .row{
     display: flex;
     justify-content: space-between;
+
 }
 .what-we-do .row .QR-type{
     display: flex;
@@ -303,6 +304,11 @@ header nav{
     z-index: 0;
 
 }
+.do-imgs{
+    display: flex;
+    flex-flow: column;
+    gap: 24px;
+}
 /* What we do ends here */
 
 
@@ -351,7 +357,7 @@ header nav{
     width: 576px;
     position: relative;
     top: 100px;
-    left: 200px
+    left: 200px;
 }
 .get-started .signup{
     z-index: 2;
@@ -426,8 +432,138 @@ footer{
     font-size: 24px;
     color: #CFBCE9;
 }
+/* Tablet responsiveness */
+@media screen and (max-width: 1024px) {
+    h1{
+        font-size: 44px !important;
+    }
+    h2{
+        font-size: 36px !important;
+    }
+    h3{
+        font-size: 32px !important;
+    }
+    h4{
+        font-size: 26px !important;
+    }
+    .p-lg{
+        font-size: 20px !important;
+        line-height: auto;
+    }
+    .p-d{
+        font-size: 18px;
+    }
+    header{
+        padding: 14px 44px;
+        align-items: center;
+        justify-content: space-between;
+        height: auto;
+    }
+    .navs{
+        display: none;
+    }
+    .nav-cta{
+        display: none;
+    }
+    nav .menu{
+        display: inline;
+    }
 
+    /* Hero section */
+    .hero{
+        padding: 24px 44px;
+        height: auto;
+    }
+    .hero-img{
+        width: 400px;
+        height: 366px;
+    }
 
+    /* New to QR */
+    .new-to-qr{
+        padding: 44px 0 44px 0;
+    }
+    .new-to-qr p{
+        font-size: 20px;
+        width: 100%;
+    }
+    .steps{
+        padding: 24px 44px 24px 44px; 
+    }
+    .swipe{
+        display: none;
+    }
+    /* What we do */
+    .what-we-do {
+        padding: 44px;
+        gap: 24px;
+    }
+    /* Review */
+
+    .review p{
+        min-width: 200px;
+        max-width: 300px; 
+        width: auto;
+    }
+    /* Get started */
+    .img-get-started{
+        top: 100px;
+        left: 100px;
+    }
+    .get-started .signup{
+        bottom: 400px;
+        left: 350px;
+    }
+}
+@media screen and (max-width: 960px) {
+    .img-get-started{
+        display: none;
+    }
+    .get-started{
+        height: auto;
+    }
+    .get-started .signup{
+        position: initial;
+        justify-content: center;
+        width: 100%;
+        margin: 44px 0;
+    }
+    .get-started .signup-form{
+        padding: 24px 16px; 
+        justify-content: center;
+        background: #FFFFFF;
+        position: initial;
+        width: auto;
+    }
+    footer{
+        padding: 44px 44px;
+    }
+}
+@media screen and (max-width: 760px) {
+    .hero{
+        padding: 24px 16px;
+        flex-flow: column;
+        height: auto;
+    }
+    .reviews{
+        flex-flow: column;
+    }
+
+    /* Footer */
+    .top{
+        flex-flow: column;
+        gap: 24px;
+    }
+    .top .title{
+        font-size: 18px;
+    }
+    .col-4 .p-sm{
+        text-align: left;
+    }
+    .bottom{
+        margin: 24px 0;
+    }
+}
 /* Mobile responsiveness */
 @media screen and (max-width: 540px) {
     h1{
@@ -508,6 +644,8 @@ footer{
     }
     .steps{
         flex-flow: column;
+        justify-content: center;
+        align-items: center;
         padding: 24px 16px;
         gap: 24px;
     }
@@ -581,20 +719,21 @@ footer{
         display: none;
     }
     .get-started{
+        
         height: auto;
     }
     .get-started .signup{
         width: 100%;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
         position: initial;
     }
     .get-started .signup-form{
         padding: 24px 16px; 
         justify-content: center;
         background: #FFFFFF;
-        border-radius: 0;
-        border-width: 1px 0px;
-        border-style: solid;
-        border-color: rgba(0, 0, 0, 0.25);
         position: initial;
         box-shadow: 0 0 0 !important;
         width: 360px;
@@ -636,6 +775,10 @@ footer{
     }
     .col-4 .p-sm{
         text-align: left;
+    }
+    .col-4 .subscribe-btn{
+        outline: hidden;
+        border: none;
     }
     .bottom{
         padding: 16px 0;
