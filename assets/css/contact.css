@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@400;700&family=Poppins:wght@600&display=swap");
+
+/* 
+font-family: 'Lexend', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contact-img {
+  width: 100%;
+}
+
+body {
+  background-color: #faf6ff;
+}
+
+main {
+  margin: 7em 0;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+  padding: 1em 1em;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.icon-text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.Get-in-touch {
+  font-family: "Lexend", sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 1.5em;
+}
+
+.column-1 {
+  width: 40%;
+}
+
+.column-2 {
+  width: 45%;
+}
+
+input,
+textarea,
+button {
+  border-radius: 15px;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+input,
+textarea {
+  padding: 0.5em 0.5em;
+  background-color: #ededed;
+  border: none;
+  outline: none;
+  margin-bottom: 1em;
+  resize: none;
+  font-family: "Lexend", sans-serif;
+}
+
+.send-btn {
+  border-radius: 20px;
+  padding: 0.75em 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  background-color: #5d2d9d;
+  color: white;
+}
+
+.btn-text {
+  font-family: "Poppins", sans-serif;
+}
+
+@media screen and (max-width: 700px) {
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .column-1,
+  .column-2 {
+    width: 100%;
+  }
+}
