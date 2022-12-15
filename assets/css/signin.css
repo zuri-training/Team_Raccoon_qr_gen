@@ -104,3 +104,41 @@
     text-decoration: none;
     color: #4A247D;
 }
+
+@media screen and (max-width: 768px ) {
+    .signin{
+        padding: 24px 0;
+    }
+    .signin-img{
+        display: none;
+    }
+    .signin-form {
+        padding: 24px 16px;
+        background: #FFFFFF;
+        box-shadow: 0 0 0;
+        border-radius: 0;
+        width: 100%;
+    }
+    .signin-form form .inputs{
+        gap: 24px;
+    }
+    .emailOrPhone-div label,
+    .password-div label{
+        font-size: 18px !important;
+    }
+    .emailOrPhone-div input,
+    .password-div input{
+        display: flex;
+        flex-flow: column;
+        gap: 8px;
+        width: auto;
+        font-size: 18px;
+    }
+    .signin-form .btns{
+        flex-flow: column;
+    }
+    .signin-form .btns a,
+    .signin-form .btns input{
+        width: 100%;
+    }
+}

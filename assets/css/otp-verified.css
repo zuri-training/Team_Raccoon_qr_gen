@@ -53,9 +53,17 @@
         width: auto;
         box-shadow: 0 0 0;
         height: auto;
+        margin: 24px 0;
+    }
+    .verified img{
+        width: 64px;
+        margin-bottom: 16px;
     }
     .btns{
         width: auto;
         padding: 24px 44px;
+    }
+    .verified p{
+        width: 100%;
     }
 }

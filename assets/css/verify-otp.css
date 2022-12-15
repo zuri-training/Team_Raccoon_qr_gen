@@ -82,7 +82,37 @@
 
 /* Mobile responsiveness */
 @media screen and (max-width: 540px) {
+    .otp-form .p-d{
+        font-size: 16px;
+        text-align: center;
+    }
+    .otp{
+        padding: 24px 16px;
+    }
     .otp-img{
         display: none;
+    }
+    .otp-form{
+        width: 100%;
+        box-shadow: 0 0 0;
+        padding: 0;
+    }
+    .otp-form input{
+        width: 44px;
+        height: 40px;
+        font-size: 18px;
+        padding: 0;
+    }
+    .otp-form form .inputs{
+        width: 100%;
+        justify-content: center;
+    }
+    main.otp .otp-form .otp-code#otp-code{
+        display: flex;
+        gap: 18px !important;
+        justify-content: space-between !important;
+    }
+    .otp-form .verify-otp-btn{
+        width: 100%;
     }
 }
