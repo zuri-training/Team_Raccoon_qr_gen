@@ -113,3 +113,51 @@
     text-decoration: none;
     color: #4A247D;
 }
+
+/* Mobile responsiveness */
+@media screen and (max-width: 768px ) {
+    .signup{
+        padding: 24px 0;
+        width: 100%;
+    }
+    .signup-img{
+        display: none;
+    }
+    .signup-form{
+        padding: 24px 16px;
+        box-shadow: 0 0 0;
+        justify-content: center;
+        width: 100%;
+    }
+    .signup-form form .inputs{
+        gap: 24px;
+    }
+    .name-div label,
+    .emailOrPhone-div label,
+    .password-div label{
+        font-size: 18px !important;
+    }
+    .name-div input,
+    .emailOrPhone-div input,
+    .password-div input{
+        display: flex;
+        flex-flow: column;
+        gap: 8px;
+        width: auto;
+        font-size: 18px;
+    }
+    .get-started .signup-form .tos-div{
+        width: 100%;
+    }
+    .get-started .signup-form .tos-div input{
+        width: 20px;
+    }
+    .signup-form .btns{
+        flex-flow: column;
+        gap: 8px;
+    }
+    .signup-form .btns a,
+    .signup-form .btns a.create-btn{
+        width: 100%;
+    }
+}

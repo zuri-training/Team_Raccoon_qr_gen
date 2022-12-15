@@ -249,7 +249,7 @@ header nav{
 .what-we-do .row .QR-type{
     display: flex;
     flex-flow: column;
-    gap: 24px;
+    gap: 8px;
 }
 .what-we-do .row .QR-type .icon{
     width: 124px;
@@ -461,14 +461,52 @@ footer{
     }
     .navs{
         display: none;
-    }
-    .nav-cta{
-        display: none;
+        position: absolute;
+        width: 280px;
+        right: 5%;
+        top: 44px;
+        padding: 24px;
+        background: #FFFFFF;
+        border-radius: 16px;
+        box-shadow: 0px 4px 24px 0px #74747429;
+
     }
     nav .menu{
-        display: inline;
+        display: block;
     }
-
+    /* .navs-drop-down{
+        position: absolute;
+        top: 52px;
+        right: 100%;
+        padding: 24px;
+        gap: 24px;
+        background: #FFFFFF !important;
+        display: flex;
+        flex-flow: column;
+    } */
+    .m-navs{
+        flex-flow: column;
+    }
+    .nav-cta{
+        flex-flow: column;
+    }
+    .cta-pri, .cta-sec{
+        width: auto;
+    }
+    /* .navs-resp{
+        display: flex;
+        position: absolute;
+        right: 0%;
+        background: white;
+        top: 52px;
+        padding: 24px;
+        border-radius: 16px;
+    }
+    .m-navs-resp{
+        flex-flow: column;
+        display: flex;
+        gap: 24px;
+    } */
     /* Hero section */
     .hero{
         padding: 24px 44px;
@@ -589,25 +627,13 @@ footer{
     header img{
         height: 24px;
     }
-    .navs{
+    /* .navs{
         display: none;
-    }
-    .nav-cta{
-        display: none;
-    }
+    } */
     nav .menu{
         display: inline;
     }
-    .navs{
-        position: absolute;
-        top: 52px;
-        right: 100%;
-        padding: 24px;
-        gap: 24px;
-        background: #FFFFFF;
-        display: flex;
-        flex-flow: column;
-    }
+    
     .m-navs{
         flex-flow: column;
     }
@@ -684,6 +710,7 @@ footer{
     }
     .do-imgs{
         display: flex;
+        flex-flow: row;
         gap: 24px;
         justify-content: center;
     }
@@ -779,6 +806,7 @@ footer{
     .col-4 .subscribe-btn{
         outline: hidden;
         border: none;
+        text-align: center;
     }
     .bottom{
         padding: 16px 0;

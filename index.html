@@ -7,14 +7,14 @@
     <title>QR_gen</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./assets/css/signup.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
   </head>
   <body>
     <header>
       <nav>
         <img src="./assets/images/QR_gen_logo.png" height="50" alt="logo">
-          <div class="navs">
-            <div class="m-navs">
+          <div class="navs" id="navs">
+            <div class="m-navs" id="m-navs">
               <a href="./index.html" class="m-nav-item nav-active">Home</a>
               <a href="#" class="m-nav-item">Generate QR</a>
               <a href="./src/about.html" class="m-nav-item">About us</a>
@@ -32,7 +32,7 @@
       <div class="hero-text">
         <h1>Generate, Customise and Track QR Codes</h1>
         <p class="p-lg">qr_gen is a dynamic QR Code generator. It allows users to easily create customized  QR codes for sharing or embedding in their website.</p>
-        <a href="./src/signup.html" class="btn cta-pri">Get started</a>
+        <a href="./src/signup.html" class="btn cta-pri" id="get-started">Get started</a>
         <div class="stats">
           <div class="users">60+ <span>Users</span></div>
           <div class="clients">32+ <span>Clients</span></div>
@@ -227,7 +227,6 @@
         </div>
       <div>
     </section>
-    <script src="./script.js"></script>
     <footer>
       <div class="top">
         <div class="col col-1">
@@ -276,5 +275,6 @@
         <p class="copywright">©2022 All Rights Reserved. Team Raccoon</p>
       </div>
     </footer>
+    <script src="./script.js"></script>
   </body>
 </html>

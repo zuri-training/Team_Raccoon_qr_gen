@@ -1,4 +1,4 @@
 $(".menu").click(function(){
-    // $(".navs").show();
-    $(".p-lg").css("font-size","35px");
-})
+    $("#navs").toggle();
+    // $("#navs").toggleClassName(".navs-drop-down");
+});
