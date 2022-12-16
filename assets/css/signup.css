@@ -113,7 +113,14 @@
     text-decoration: none;
     color: #4A247D;
 }
-
+@media screen and (max-width: 1000px ) {
+    .signup-img{
+        display: none;
+    }
+    .signup{
+        justify-content: center;
+    }
+}
 /* Mobile responsiveness */
 @media screen and (max-width: 768px ) {
     .signup{

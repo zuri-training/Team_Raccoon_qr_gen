@@ -8,13 +8,14 @@
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="../assets/css/signin.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="shortcut icon" href="/assets/icons/Favicon.png" type="image/x-icon">
   </head>
   <body>
     <header>
       <nav>
         <img src="../assets/images/QR_gen_logo.png" height="50" alt="logo">
             <div class="navs" id="navs">
-                <div class="m-navs">
+                <div class="m-navs" id="m-navs">
                   <a href="../index.html" class="m-nav-item nav-active">Home</a>
                   <a href="#" class="m-nav-item">Generate QR</a>
                   <a href="../src/about.html" class="m-nav-item">About us</a>
@@ -25,7 +26,7 @@
                     <a href="../src/signin.html" class="btn cta-pri">Sign in</a>
                 </div>
             </div>
-            <img src="../assets/icons/hambergermenu.svg" alt="" class="menu" id="menu">
+            <img src="../assets/icons/hambergermenu.svg" alt="menu" onclick="toggleMenu()" class="menu" id="menu">
       </nav>
     </header>
     <main class="signin">
@@ -104,6 +105,11 @@
         <p class="copywright">©2022 All Rights Reserved. Team Raccoon</p>
       </div>
     </footer>
-    <script src="/script.js"></script>
+    <!-- Menu on responsiveness -->
+    <script>
+      function toggleMenu(){
+        $("#navs").toggle();
+      }
+    </script>
   </body>
 </html>
