@@ -15,16 +15,13 @@ font-family: 'Poppins', sans-serif;
   width: 100%;
 }
 
-body {
-  background-color: #faf6ff;
-}
-
 main {
   margin: 7em 0;
 }
 
 .container {
   width: 70%;
+  min-width: 300px;
   margin: 0 auto;
   padding: 1em 1em;
   background-color: white;
@@ -50,35 +47,31 @@ main {
 }
 
 .column-1 {
-  width: 40%;
+  width: 45%;
 }
 
 .column-2 {
   width: 45%;
 }
 
-input,
+.column-1 input,
 textarea,
 button {
-  border-radius: 15px;
+  border-radius: 24px;
   width: 100%;
-  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
-    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 
-input,
+.column-1 input,
 textarea {
-  padding: 0.5em 0.5em;
-  background-color: #ededed;
-  border: none;
-  outline: none;
+  padding: 0.7em 0.5em;
+  border: 1px solid Purple;
+  font-size: 1.3rem;
   margin-bottom: 1em;
   resize: none;
   font-family: "Lexend", sans-serif;
 }
 
 .send-btn {
-  border-radius: 20px;
   padding: 0.75em 0;
   display: flex;
   justify-content: center;
@@ -93,13 +86,20 @@ textarea {
   font-family: "Poppins", sans-serif;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
+  .container {
+    box-shadow: none;
+    border-radius: none;
+  }
   .wrapper {
     flex-direction: column;
   }
 
-  .column-1,
-  .column-2 {
+  .column-1 {
     width: 100%;
+  }
+
+  .column-2 {
+    display: none;
   }
 }
