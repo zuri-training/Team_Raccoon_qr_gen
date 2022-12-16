@@ -19,3 +19,23 @@
     /* width: 1200px; */
     margin: 0 120px;
 }
+@media screen and (max-width: 1024px) {
+    .about{
+        padding: 44px;
+    }
+    .about p{
+        margin: auto;
+    }
+}
+@media screen and (max-width: 500px) {
+    .about{
+        padding: 16px;
+    }
+    .about-img{
+        width: 328px;
+    }
+    .about p{
+        margin: auto;
+        font-size: 16px;
+    }
+}
