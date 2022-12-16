@@ -2,7 +2,7 @@
 
 ## Project Catalogue
 
-- [Live link]
+- [Live link](#live-link)
 - [Project Scope](#project-scope)
 - [Problem Statement](#problem-statement)
   - [Modalities](#modalities)
