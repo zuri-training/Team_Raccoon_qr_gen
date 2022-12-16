@@ -2,6 +2,7 @@
 
 ## Project Catalogue
 
+- [Live link](#live-link)
 - [Project Scope](#project-scope)
 - [Problem Statement](#problem-statement)
   - [Modalities](#modalities)
@@ -9,6 +10,9 @@
   - [Links](#links)
 - [Set Up and Installation](#set-up-and-installation)
 - [Technologies Used](#technologies-used)
+
+## Live link
+https://zuri-training.github.io/Team_Raccoon_qr_gen/index.html
 
 ## Project Scope
 
