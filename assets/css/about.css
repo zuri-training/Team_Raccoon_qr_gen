@@ -1,3 +1,6 @@
+body{
+    background-color: #FAF6FF;
+}
 .about-main{
     display: flex;
     justify-content: center;
@@ -13,13 +16,19 @@
 }
 
 .about-img{
-    width: 500px;
+    width: 694px;
 }
 .about p{
     /* width: 1200px; */
     margin: 0 120px;
+    padding: 50px;
+    background: #ffffff;
+    border-radius: 32px;
 }
 @media screen and (max-width: 1024px) {
+    .about-img{
+        width: 486px;
+    }
     .about{
         padding: 44px;
     }
@@ -28,14 +37,21 @@
     }
 }
 @media screen and (max-width: 500px) {
+    .about-main{
+        height:auto;
+    }
     .about{
         padding: 16px;
+        gap: 8px;
     }
     .about-img{
         width: 328px;
     }
     .about p{
-        margin: auto;
-        font-size: 16px;
+        margin: 0 auto;
+        font-size: 14px;
+        padding: 16px;
+        background: #ffffff;
+        border-radius: 16px;
     }
 }
