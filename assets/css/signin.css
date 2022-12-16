@@ -104,7 +104,14 @@
     text-decoration: none;
     color: #4A247D;
 }
-
+@media screen and (max-width: 1000px ) {
+    .signin-img{
+        display: none;
+    }
+    .signin{
+        justify-content: center;
+    }
+}
 @media screen and (max-width: 768px ) {
     .signin{
         padding: 24px 0;

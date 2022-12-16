@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="../assets/css/otp-verified.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="shortcut icon" href="/assets/icons/Favicon.png" type="image/x-icon">
   </head>
   <body>
     <header>
@@ -25,7 +26,7 @@
                 <a href="../src/signin.html" class="btn cta-pri">Sign in</a>
             </div>
             </div>
-            <img src="../assets/icons/hambergermenu.svg" alt="" class="menu" id="menu">
+            <img src="../assets/icons/hambergermenu.svg" alt="menu" onclick="toggleMenu()" class="menu" id="menu">
       </nav>
     </header>
     <main class="otp-verified">
@@ -89,7 +90,12 @@
       </div>
       <script src="./script.js"></script>
     </footer>
-    <script src="/script.js"></script>
+    <!-- Menu on responsiveness -->
+    <script>
+      function toggleMenu(){
+        $("#navs").toggle();
+      }
+    </script>
   </body>
   
 </html>

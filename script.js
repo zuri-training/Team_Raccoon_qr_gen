@@ -3,6 +3,3 @@ $(".menu").click(function(){
     // $("#navs").toggleClassName(".navs-drop-down");
 });
 
-function toggleMenu(){
-    $("#navs").toggle();
-}
