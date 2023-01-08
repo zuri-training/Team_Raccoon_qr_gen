@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Generate QR Code</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../assets/css/generatecode.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="shortcut icon" href="/assets/icons/Favicon.png" type="image/x-icon">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="../assets/images/QR_gen_logo.png" height="50" alt="logo">
+            <div class="navs" id="navs">
+              <div class="m-navs" id="m-navs">
+                <a href="../index.html" class="m-nav-item ">Home</a>
+                <a href="../src/generatecode.html" class="m-nav-item nav-active">Generate QR</a>
+                <a href="../src/about.html" class="m-nav-item">About us</a>
+                <a href="../src/contact.html" class="m-nav-item">Contact</a>
+            </div>
+            <div>
+                <img src="../assets/images/avatar.png" height="50" alt="avatar">
+            </div>
+            </div>
+            <img src="../assets/icons/hambergermenu.svg" alt="menu" onclick="toggleMenu()" class="menu" id="menu">
+      </nav>
+    </header>
+    <main >
+        <div class="maindiv">
+            <div class="updiv">
+                <div class="leftdiv">
+                    <img src="../assets/images/qr_code.png" height="300" alt="qr_code">
+                </div>
+                <div class="rightdiv">
+                    <div class="error"><img src="../assets/images/Error.png" height="10" alt="Error" class="img5"></div>
+                    <div class="rightdivtop">
+                        Choose file to download<br>
+                        <button class="btn1">JPG</button><button class="btn2">PNG</button><button class="btn2">PDF</button>
+                    </div><hr>
+                    <div class="rightdivmiddle">
+                        Or share code by:<br>
+                        <img src="../assets/images/Share.png" height="20" alt="Share" class="img1"><img src="../assets/icons/fb.svg" height="20" alt="fb" class="img2"><img src="../assets/icons/twitter.svg" height="20" alt="twitter" class="img2"><img src="../assets/icons/insta.svg" height="20" alt="insta" class="img3"><br>
+                        <img src="../assets/images/Email.png" height="20" alt="Email" class="img1"><img src="../assets/images/Web2.png" height="20" alt="Web2s" class="img2">
+                        
+                    </div><hr>
+                    <div class="rightdivbottom">
+                        <p>Copy link:<a href="#" class="copylink">wa.me/2348098548130</a></p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="downdiv">
+                <button class="downdivbutton"><img src="../assets/images/download.png" height="15" alt="download" class="img4">Generate QR Code</button>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+    <!-- <div></div> -->
+    <script>
+        function toggleMenu(){
+          $("#navs").toggle();
+        }
+      </script>
+  </body>
+</html>

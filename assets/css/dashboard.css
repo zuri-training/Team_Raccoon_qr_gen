@@ -1,0 +1,101 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    place-items: center;
+    min-height: 100vh;
+}
+main{
+    background-color: rgb(234, 234, 243);
+}
+.img1{
+    margin-left: 20px;
+}
+.navbar{
+    justify-content: space-between;
+}
+main{
+    display: grid;
+    grid-template-areas: 
+    'a c c c c'
+    'a d d d d'
+    'a d d d d'
+    'b d d d d'
+    'b e e e e'
+    'b e e e e'
+    'b e e e e'
+    'b f f f f'
+    'b f f f f'
+    'b f f f f'
+    ;
+    gap: 15px;
+    width: 80%;
+    margin: auto;
+}
+main div{
+    padding: 2em;
+    text-align: center;
+    border-radius: 10px;
+}
+.item-a{
+    background-color: white;
+    grid-area: a;
+}
+.item-b{
+    background-color: white;
+    grid-area: b;
+}
+.item-c{
+    background-color: rgb(234, 234, 243);
+    grid-area: c;
+    display: flex;
+    justify-content: space-between;
+
+}
+.item-d{
+    background-color: white;
+    grid-area: d;
+    display: flex;
+    justify-content: space-between;
+}
+.item-e{
+    background-color: white;
+    grid-area: e;
+    display: flex;
+    justify-content: space-between;
+}
+.item-f{
+    background-color: white;
+    grid-area: f;
+    display: flex;
+    justify-content: space-between;
+}
+h6{
+    font-size: 12px;
+}
+.p-item-a{
+    color: rgb(10, 255, 161);
+    font-size: 8px;
+}
+.btn-search{
+    background-color: white;
+    border: 1px solid rgb(234, 234, 243);
+    color: rgb(234, 234, 243);
+    border-radius: 10px;
+    margin-right: 10px;
+    padding: 8px;
+}
+.btn-create{
+    background-color: #8154bb;
+    border: 1px solid #8154bb;
+    color: white;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 8px;
+}
+.active{
+    color: #8154bb;
+    font-size: 8px;
+}
+.p{
+    font-size: 8px;
+}

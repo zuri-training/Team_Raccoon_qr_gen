@@ -1,0 +1,99 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    background-color: rgb(247, 247, 248);
+}
+.maindiv{
+    border: 1px solid white;
+    border-radius: 20px;
+    box-shadow: 10px 10px 60px rgba(207, 192, 235, 0.2);
+    width: 60%;
+    min-width: 300px;
+    margin: 30px auto 30px;
+    /* margin-top: 5%;
+    margin-bottom: 5%; */
+    /* margin-left: 15%;
+    margin-right: 15%; */
+    padding: 1em 1em;
+    background-color: white;
+}
+.updiv{
+    display: flex;
+    justify-content: space-between;
+}
+.leftdiv{
+    margin-left: 2rem;
+}
+.rightdiv{
+    margin-right: 3rem;
+}
+.rightdivtop{
+    margin-bottom: 15px;
+}
+.rightdivmiddle{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.rightdivbottom{
+    margin-top: 15px;
+}
+.img1{
+    margin-top: 20px;
+    margin-right: 15px;
+}
+.img2{
+    margin-top: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+    
+}
+.img3{
+    margin-top: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.btn1{
+    background-color: #8154bb;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 12px;
+    border: 1px solid #8154bb;
+    margin-top: 5px;
+    margin-right: 5px;
+
+
+}
+.btn2{
+    background-color: #c8acec;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 12px;
+    border: 1px solid #c8acec;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.copylink{
+    color: rgb(7, 214, 128);
+    text-decoration: none;
+}
+.downdivbutton{
+    background-color: #8154bb;
+    color: white;
+    border: 1px solid #8154bb;
+    border-radius: 20px;
+    margin: 5% 30% 3%;
+    /* padding: 1em 1em; */
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.img4{
+    margin-right: 8px;
+}
+.img5{
+    margin-left: 90%;
+}
