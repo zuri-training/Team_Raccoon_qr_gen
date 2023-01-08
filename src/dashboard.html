@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../assets/css/dashboard.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="shortcut icon" href="/assets/icons/Favicon.png" type="image/x-icon">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="../assets/images/QR_gen_logo.png" height="50" alt="logo">
+            <div class="navs" id="navs">
+              
+            <div class="navbar">
+                <img src="../assets/images/Notification.png" height="20" alt="Notification">
+                <img src="../assets/images/Settings.png" height="20" alt="Settings" class="img1">
+            </div>
+            </div>
+            <img src="../assets/icons/hambergermenu.svg" alt="menu" onclick="toggleMenu()" class="menu" id="menu">
+      </nav>
+    </header>
+    <main>
+        <div class="item-a">
+            <img src="../assets/images/avatar.png" height="50" alt="avatar">
+            <h6>Stella John Precious</h6>
+            <p class="p-item-a">CEO SJP Resources LTD</p>
+        </div>
+        <div class="item-b">
+            <h6>MY QR Codes</h6><br><br>
+            <img src="../assets/images/Task.png" height="10" alt="Task"><p class="p">All (5)</p><br>
+            <img src="../assets/images/Archive.png" height="10" alt="Archive"><p class="active">Active(3)</p><br>
+            <img src="../assets/images/Save.png" height="10" alt="Save"><p class="p">Saved(1)</p><br><br><br><br><br>
+            <img src="../assets/images/Logout.png" height="10" alt="Logout"><p class="p">Sign out</p>
+        </div>
+        <div class="item-c">
+            <h4>Hello Stella,</h4>
+            <div>
+                <button class="btn-search"><img src="../assets/images/Search.png" height="15" alt="Search" >Search your QR Codes</button><button class="btn-create"><img src="../assets/images/Add.png" height="15" alt="Add" >Create QR Code</button>
+            
+            </div>
+            
+        </div>
+        <div class="item-d">
+            <img src="../assets/images/Stellacode.png" height="70" alt="Stellacode">
+            <img src="../assets/images/Scan.png" height="70" alt="Scan">
+        </div>
+        <div class="item-e">
+            <img src="../assets/images/EStelle.png" height="70" alt="EStelle">
+            <img src="../assets/images/Scan.png" height="70" alt="Scan">
+        </div>
+        <div class="item-f">
+            <img src="../assets/images/WoleNonye.png" height="70" alt="WoleNonye">
+            <img src="../assets/images/Scan.png" height="70" alt="Scan">
+        </div>
+    </main>
+
+
+
+
+
+    <div></div>
+    <script>
+        function toggleMenu(){
+          $("#navs").toggle();
+        }
+      </script>
+  </body>
+</html>
